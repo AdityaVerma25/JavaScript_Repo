@@ -14,3 +14,8 @@ document.querySelector("body").appendChild(h1);
 
 //for remove 
 h1.remove();
+
+var btn = document.querySelector('button');
+btn.addEventListener('click', () => {
+    alert("Event listner working");
+})
